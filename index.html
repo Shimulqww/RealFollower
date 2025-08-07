@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>এক ঘন্টায় ভাইরাল!</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background: #007bff;
+      color: #fff;
+      margin: 0;
+      padding: 0;
+      text-align: center;
+    }
+    .container {
+      background: #fff;
+      color: #000;
+      margin: 40px 20px;
+      padding: 30px 20px;
+      border-radius: 12px;
+    }
+    input, select, button {
+      width: 100%;
+      margin: 10px 0;
+      padding: 12px;
+      border-radius: 8px;
+      border: 1px solid #ccc;
+      font-size: 16px;
+    }
+    button {
+      background: #ff6600;
+      color: white;
+      font-weight: bold;
+      border: none;
+      cursor: pointer;
+    }
+    .note {
+      margin-top: 20px;
+      background: #0056b3;
+      padding: 15px;
+      border-radius: 10px;
+      color: #fff;
+    }
+    .share-btn {
+      margin-top: 10px;
+      display: inline-block;
+      background: #1877f2;
+      color: white;
+      padding: 10px 20px;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .gif-box {
+      margin: 30px auto 0;
+      max-width: 300px;
+    }
+    .gif-box img {
+      width: 100%;
+      border-radius: 15px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    }
+  </style>
+</head>
+<body>
+  <h2>📢 এক ঘন্টায় ভাইরাল 🚀</h2>
+  <p>আপনার ফেসবুক পোস্ট বা পেজের জন্য আনলিমিটেড রিয়্যাকশন বা ফলোয়ার নিন!</p>
+
+  <!-- ✅ GIF Section -->
+  <div class="gif-box">
+    <img src="https://media.giphy.com/media/l0MYC0LajbaPoEADu/giphy.gif" alt="Reaction GIF">
+    <!-- ✅ Replace with your own GIF link if needed -->
+  </div>
+
+  <div class="container">
+    <input type="text" id="fburl" placeholder="ফেসবুক পোস্ট বা পেজের URL পেস্ট করুন">
+    
+    <select id="type">
+      <option disabled selected>রিয়্যাকশন বা ফলোয়ার সিলেক্ট করুন</option>
+      <option>লাইক (👍)</option>
+      <option>লাভ (❤️)</option>
+      <option>হা হা (😆)</option>
+      <option>ওয়াও (😮)</option>
+      <option>স্যাড (😢)</option>
+      <option>অ্যাংরি (😠)</option>
+      <option>পেজ ফলোয়ার</option>
+    </select>
+    
+    <select id="amount">
+      <option disabled selected>পরিমাণ সিলেক্ট করুন</option>
+      <option>10</option>
+      <option>50</option>
+      <option>100</option>
+      <option>200</option>
+      <option>500</option>
+      <option>1000</option>
+      <option>2000</option>
+      <option>3000</option>
+      <option>4000</option>
+      <option>5000</option>
+    </select>
+
+    <button onclick="continueNow()">কন্টিনিউ</button>
+
+    <div class="note">
+      ফলোয়ার পেতে হলে প্রথমে ১০ জন বন্ধুকে মেসেঞ্জারে ইনভাইট করুন।<br>
+      তারপর অ্যাপটি ডাউনলোড করে ২ মিনিট চালান।
+    </div>
+
+    <a class="share-btn" href="https://m.me/share.php?link=https://ge.blogspot.com" target="_blank">📨 মেসেঞ্জারে বন্ধু ইনভাইট করুন</a>
+  </div>
+
+  <script>
+    function continueNow() {
+      const urls = [
+        "https://otieu.com/4/9549476",
+        "https://otieu.com/4/9549428"
+      ];
+      const rand = Math.floor(Math.random() * urls.length);
+      window.location.href = urls[rand];
+    }
+  </script>
+</body>
+                                                                                                                              </html>
